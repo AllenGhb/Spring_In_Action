@@ -49,6 +49,13 @@
             <artifactId>log4j</artifactId>
             <version>${version.log4j}</version>
         </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.10</version>
+        </dependency>
+
+
     </dependencies>
 
 

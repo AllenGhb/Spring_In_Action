@@ -9,6 +9,9 @@ public class BraveKnight implements Knight {
 
     private Quest quest;
 
+    /**
+     * 依赖注入方式之一:构造器注入
+     */
     public BraveKnight(Quest quest) {
         this.quest = quest;
     }

@@ -8,7 +8,7 @@ import sia.knights.Quest;
 import sia.knights.SlayDragonQuest;
 
 /**
- * @Discription:
+ * @Discription: 2:基于java的配置装配
  * @Author: allen
  * @Date: 2017/7/12
  */
