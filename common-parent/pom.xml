@@ -11,7 +11,7 @@
         <module>stereo-javaconfig</module>
         <module>stereo-xmlconfig</module>
         <module>stereo-mixedconfig</module>
-        <!--<module>stereoautoconfig</module>-->
+        <module>stereoautoconfig</module>
     </modules>
 
     <properties>
