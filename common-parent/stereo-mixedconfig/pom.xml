@@ -6,12 +6,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>stereo-xmlconfig</artifactId>
+    <artifactId>stereo-mixedconfig</artifactId>
     <packaging>war</packaging>
-    <name>stereo-xmlconfig Maven Webapp</name>
+    <name>stereo-mixedconfig Maven Webapp</name>
     <url>http://maven.apache.org</url>
-
     <build>
-        <finalName>stereo-xmlconfig</finalName>
+        <finalName>stereo-mixedconfig</finalName>
     </build>
 </project>
