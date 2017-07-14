@@ -11,6 +11,6 @@ public class SgtPeppers implements CompactDisc {
     private String artist = "The Beatles";
 
     public void play() {
-        System.out.println("Playing " + title + " by " + artist);
+        System.out.print("Playing " + title + " by " + artist + "\n");
     }
 }
