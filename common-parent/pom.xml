@@ -12,6 +12,7 @@
         <module>stereo-xmlconfig</module>
         <module>stereo-mixedconfig</module>
         <module>stereo-autoconfig</module>
+        <module>profiles</module>
     </modules>
 
     <properties>
@@ -67,6 +68,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-expression</artifactId>
+            <version>${version.spring}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
             <version>${version.spring}</version>
         </dependency>
         <dependency>
