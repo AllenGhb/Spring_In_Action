@@ -13,6 +13,7 @@
         <module>stereo-mixedconfig</module>
         <module>stereo-autoconfig</module>
         <module>profiles</module>
+        <module>conditional</module>
     </modules>
 
     <properties>
