@@ -2,6 +2,8 @@ package spitter.web;
 
 import com.sun.istack.internal.NotNull;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
 
@@ -16,8 +18,12 @@ public class SpittleForm {
     @Size(min=1,max=140)
     private String message;
 
+    @Min(-180)
+    @Max(180)
     private Double longtitude;
 
+    @Min(-90)
+    @Max(90)
     private Double latitude;
 
     public String getMessage() {
