@@ -2,7 +2,9 @@ package spitter.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import spitter.Spitter;
 import spitter.data.SpitterRepository;
@@ -38,8 +40,14 @@ public class SpitterController {
         }
         spitterRepository.save(spitter);
         return "redirect:/spitter/"+spitter.getUsername();
-
     }
+
+    public String showSpitterProfile(@PathVariable String username,Model model){
+        Spitter spitter = spitterRepository.findByUsername(username);
+        model.addAttribute(spitter);
+        return "profile";
+    }
+
 
 
 }
