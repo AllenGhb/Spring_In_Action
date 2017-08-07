@@ -6,11 +6,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>stereo-antoconfig</artifactId>
+    <artifactId>stereo-autoconfig</artifactId>
     <packaging>war</packaging>
-    <name>stereo-antoconfig Maven Webapp</name>
+    <name>stereo-autoconfig Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <build>
-        <finalName>stereo-antoconfig</finalName>
+        <finalName>stereo-autoconfig</finalName>
     </build>
 </project>
