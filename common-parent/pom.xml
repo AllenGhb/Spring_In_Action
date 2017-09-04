@@ -17,6 +17,7 @@
         <module>scopedbeans</module>
         <module>externals</module>
         <module>Spittr</module>
+        <module>Chapter_10_db</module>
     </modules>
 
     <properties>
