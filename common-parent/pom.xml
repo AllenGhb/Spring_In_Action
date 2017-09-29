@@ -19,6 +19,8 @@
         <module>Spittr</module>
         <module>Chapter_10_db</module>
         <module>Chapter_12_redis</module>
+        <module>Chapter_13_caching</module>
+        <module>Chapter_07_Spittr</module>
     </modules>
 
     <properties>
@@ -94,6 +96,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+            <version>${version.spring}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
             <version>${version.spring}</version>
         </dependency>
         <dependency>
